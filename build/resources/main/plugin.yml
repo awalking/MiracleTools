@@ -1,0 +1,13 @@
+name: MiracleTools
+version: '1.0'
+main: net.miraclemc.miracletools.MiracleTools
+api-version: '1.20'
+commands:
+  checkin:
+    description: "Регистрация админа в онлайне"
+    permission: "miracletools.command.checkin"
+    permission-message: "&cУ вас нет прав для выполнения данной команды!"
+  checkin-list:
+    description: "Вывод работающих администраторов онлайн"
+    permission: "miracletools.command.checkinlist"
+    permission-message: "&cУ вас нет прав для выполнения данной команды!"
