@@ -1,8 +1,0 @@
-# All plugins messages
-# List of available placeholders:
-# [PLAYER] [DATE] [BALANCE]
-
-Messages:
-  Reload: "Plugin has been successfully reloaded"
-  CheckIn: "Administrator [PLAYER] started work"
-  CheckInList: "Administrators works:"

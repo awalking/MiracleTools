@@ -23,7 +23,7 @@ public class AchievementSpam {
 
     public void startAchievementTask() {
         ItemStack icon = new ItemStack(Material.DIAMOND);
-        JSONMessage description = new JSONMessage(new TextComponent(ColorUtils.colorize("&aНовые возможности с\nподпиской &eMiracle+")));
+        JSONMessage description = new JSONMessage(new TextComponent("&aНовые возможности с\nподпиской &eMiracle+"));
         AdvancementDisplay.AdvancementFrame frame = AdvancementDisplay.AdvancementFrame.GOAL;
 
         ToastNotification notification = new ToastNotification(icon, description, frame);
@@ -32,7 +32,7 @@ public class AchievementSpam {
             @Override
             public void run() {
                 for (Player player : Bukkit.getOnlinePlayers()) {
-                    player.sendMessage(ColorUtils.colorize("&aНадоели всплывашки? Купи ебливый донат сын свиньи"));
+                    player.sendMessage("&aНадоели всплывашки? Купи ебливый донат сын свиньи");
                     notification.send(player);
                 }
             }
